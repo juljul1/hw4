@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+table{
+width: 600px;
+height: 600px;
+text-align: center;
+}
+td.red{
+width: 200px;
+height: 200px;	
+background-color: #850000;
+}
+td.white{
+width: 200px;
+height: 200px;	
+background-color: white;
+}
