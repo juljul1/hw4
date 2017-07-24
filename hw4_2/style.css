@@ -7,13 +7,15 @@ width: 600px;
 height: 600px;
 text-align: center;
 }
-td.red{
+td{
 width: 200px;
-height: 200px;	
-background-color: #850000;
+height: 200px;
 }
-td.white{
-width: 200px;
-height: 200px;	
-background-color: white;
+td:nth-child(2n+1) {
+background: #850000;
 }
+td:nth-child(2n) {
+background: white; 
+}
+
+ 
