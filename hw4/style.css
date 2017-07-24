@@ -5,6 +5,7 @@
 }
 a{
 	text-decoration: none;
+	display: block;
 }
 div.wrapper{
 	background-color: white;
@@ -14,7 +15,7 @@ div.wrapper{
 	margin: 5px;
 	text-align: center;
 }
-p.left{
+a.left{
 	box-shadow: -3px 3px #9c9c9c;
 	background-color: #8bc144;
 	font-size: 22px;
@@ -22,7 +23,7 @@ p.left{
 	width: 190px;
 	height: 35px;	
 }
-p.buy{
+a.buy{
 	box-shadow: 0px 3px #850000;
 	background-color: #ff0000;
 	font-size: 28px;
@@ -32,6 +33,6 @@ p.buy{
 	margin-top: 10px;
 	margin-left: 80px;
 	}
-p.price{
+p{
 	font-size: 31px;
 }
