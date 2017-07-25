@@ -14,8 +14,11 @@ height: 200px;
 td:nth-child(2n+1) {
 background: #850000;
 }
-td:nth-child(2n) {
-background: white; 
+.reversed-order td:nth-child(2n) {
+background: #850000;
+}
+.reversed-order td:nth-child(2n+1) {
+background: white;
 }
 
  
