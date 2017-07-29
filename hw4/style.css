@@ -6,6 +6,11 @@
 a{
 	text-decoration: none;
 	display: block;
+	margin-bottom: 15px;
+}
+img{
+	display: block;
+	margin: auto;
 }
 div.wrapper{
 	background-color: white;

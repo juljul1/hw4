@@ -9,21 +9,15 @@
 	height: 600px;
 	text-align: center;
 }
-.left{
-	float: left;
-}
-.right{
-	float: right;
+.block{
+height: 200px;
+width: 200px;
+float: left;
 } 
 div:nth-child(2n+1){
 	background-color: #850000;
 }
 div:nth-child(2n){
 	background-color: #fff;
-}
-div{
-	height: 200px;
-	width: 200px;
-	display: inline-block;
 }
 
